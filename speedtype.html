@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="speedtype.css">
+</head>
+
+<body>
+    <div class="container p-3">
+        <h1>Speed Typing Test</h1>
+        <p>On your fingers lets set Go!</p>
+
+        <div class="d-flex flex-row align-items-center">
+            <img class="mr-3 img" src="https://assets.ccbp.in/frontend/dynamic-webapps/clock-img.png" />
+            <p class="timer" id="timer">0</p>
+            <p class="ml-2 mt-3">seconds</p>
+        </div>
+
+        <div class="cardContainer mt-3">
+            <p id="quoteDisplay"></p>
+            <textarea id="quoteInput" class="form-control" rows="5" placeholder="Type here"></textarea>
+        </div>
+
+        <div class="text-center mt-3">
+            <div id="spinner" class="spinner-border d-none"></div>
+        </div>
+
+        <p id="result" class="mt-2"></p>
+
+        <div class="text-center mt-3">
+            <button id="submitBtn" class="btn submit1">Submit</button>
+            <button id="resetBtn" class="btn reset ml-2">Reset</button>
+        </div>
+    </div>
+
+    <script src="speedtype.js"></script>
+</body>
+
+</html>

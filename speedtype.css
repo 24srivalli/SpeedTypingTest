@@ -1,0 +1,32 @@
+.container {
+    background-color: #dac0ff;
+    min-height: 100vh;
+}
+
+.cardContainer {
+    background-color: #f3eaff;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #9aa5b1;
+}
+
+h1 {
+    color: #690cb0;
+}
+
+.submit1 {
+    background-color: #690cb0;
+    color: white;
+}
+
+.reset {
+    background-color: #f2ebf3;
+}
+
+.img {
+    height: 60px;
+}
+
+.timer {
+    font-size: 40px;
+}
